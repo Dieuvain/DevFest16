@@ -13,14 +13,14 @@
     android:weightSum="0.7">
 
         <ImageView
-        android:id="@+id/_icon1"
+        android:id="@+id/mapicon"
         android:paddingLeft="40dp"
         android:layout_width="wrap_content"
         android:layout_height="130dp"
         android:src="@drawable/location"
         android:layout_weight="0.24" />
         <ImageView
-        android:id="@+id/_icon2"
+        android:id="@+id/fuelicon"
         android:paddingLeft="50dp"
         android:layout_width="wrap_content"
         android:layout_height="130dp"
@@ -69,7 +69,7 @@
         android:layout_alignParentStart="true">
 
         <ImageView
-            android:id="@+id/_icon3"
+            android:id="@+id/usericon"
             android:paddingLeft="40dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp"
@@ -77,7 +77,7 @@
             android:layout_weight="0.24" />
 
         <ImageView
-            android:id="@+id/_icon4"
+            android:id="@+id/settingsicon"
             android:paddingLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp"
@@ -98,7 +98,7 @@
         >
 
         <ImageView
-            android:id="@+id/_icon5"
+            android:id="@+id/favoriteicon"
             android:paddingLeft="40dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp"
@@ -106,7 +106,7 @@
             android:layout_weight="0.24" />
 
         <ImageView
-            android:id="@+id/_icon6"
+            android:id="@+id/helpicon"
             android:paddingLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp"
