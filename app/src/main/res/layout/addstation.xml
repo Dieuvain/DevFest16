@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:id="@+id/_line1"
+        android:layout_below="@+id/_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:weightSum="0.7">
+<EditText
+    android:id="@+id/_txt_nameStation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/stationname"
+    android:textStyle="italic"
+    android:textColorHint="@color/white"
+    />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_title_line1"
+        android:layout_below="@+id/_line1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/title1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/_title"
+        android:layout_height="wrap_content"
+        android:text="@string/addStation"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:id="@+id/_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:weightSum="0.7"
+        android:layout_below="@+id/_title_line1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/_txt_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Keroseneprice"
+            android:textStyle="italic"
+            android:textColorHint="@color/white"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.7"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/_line2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <EditText
+            android:id="@+id/_txt_Price2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Dieselprice"
+            android:textStyle="italic"
+            android:textColorHint="@color/white"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/_line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.7"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/_line3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <EditText
+            android:id="@+id/_txt_Latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Latitude"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.7"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/_line4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <EditText
+            android:id="@+id/_txt_Longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Longitude"
+            android:textStyle="italic"
+            android:textColorHint="@color/white"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/_line6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.7"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/_line5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <EditText
+            android:id="@+id/_txt_OpenHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/OpenHour"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/_line7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.7"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/_line6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <Button
+            android:id="@+id/_btn_addstation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Save"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

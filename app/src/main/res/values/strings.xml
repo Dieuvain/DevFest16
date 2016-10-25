@@ -4,5 +4,24 @@
     <string name="username">Nom utilisateur</string>
     <string name="password">Mot de passe</string>
 
+    <string name="addStation">Add Station</string>
+
+    <string name="stationname">Station Name</string>
+    <string name="Keroseneprice">Kerosene Price</string>
+    <string name="Dieselprice"> Diesel price</string>
+    <string name="Latitude">Latitude(ex:2.543328)</string>
+    <string name="Longitude"> Longitude (ex:-1.543328)</string>
+    <string name="OpenHour">Open Hour</string>
+    <string name="Save">SAVE</string>
+
+
+    <string name="usercreate">Create User</string>
+    <string name="UserName">User Name</string>
+    <string name="Password"> Password</string>
+    <string name="phoneNumber">Phone Number(ex:+243994662200)</string>
+    <string name="SecretHint"> Secret Hint (ex:Bukavu)</string>
+    <string name="UserType">UserType</string>
+    <string name="create">CREATE</string>
+
 
 </resources>
